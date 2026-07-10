@@ -101,7 +101,7 @@ remaining five blocks are added.
 
 ### Phase 3: Full block catalog
 
-- [ ] **Task 5: Blocks batch A — `textImage`, `benefitsList`**
+- [x] **Task 5: Blocks batch A — `textImage`, `benefitsList`**
 - [ ] **Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery`**
 
 ### Checkpoint 3: All blocks implemented

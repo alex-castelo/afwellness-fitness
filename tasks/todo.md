@@ -15,7 +15,7 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 **Checkpoint 2 — critical** — `generate` produces a real PDF (cover+header+footer+text), `validate` accepts/rejects correctly, tests pass, PDF opened and visually confirmed. **Human review required before continuing.** ✅ confirmed by developer
 
 ## Phase 3: Full block catalog
-- [ ] Task 5: Blocks batch A — `textImage`, `benefitsList`
+- [x] Task 5: Blocks batch A — `textImage`, `benefitsList`
 - [ ] Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery` (can run in parallel with Task 5)
 
 **Checkpoint 3** — all 6 blocks tested, typecheck/lint clean. Human review.
