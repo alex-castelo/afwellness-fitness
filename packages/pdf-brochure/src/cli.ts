@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import { generatePdf } from "./render.js";
 import { validateContent } from "./schema/content.schema.js";
 
 export type Command = "generate" | "validate";
@@ -47,11 +48,16 @@ async function main(): Promise<void> {
   const parsed = parseArgs(process.argv.slice(2));
 
   if (parsed.command === "generate") {
-    console.log(`generate: not yet implemented (content=${parsed.content}, out=${parsed.out})`);
+    await runGenerate(parsed.content, parsed.out);
     return;
   }
 
   await runValidate(parsed.content);
+}
+
+async function runGenerate(contentPath: string, outPath: string): Promise<void> {
+  await generatePdf(contentPath, outPath);
+  console.log(`✓ Generated ${outPath}`);
 }
 
 async function runValidate(contentPath: string): Promise<void> {
