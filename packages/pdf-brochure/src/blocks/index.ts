@@ -1,5 +1,8 @@
 import type { Block } from "../schema/content.schema.js";
 import { renderBenefitsListBlock } from "./benefits-list.js";
+import { renderGalleryBlock } from "./gallery.js";
+import { renderPricingTableBlock } from "./pricing-table.js";
+import { renderTestimonialBlock } from "./testimonial.js";
 import { renderTextBlock } from "./text.js";
 import { renderTextImageBlock } from "./text-image.js";
 
@@ -9,6 +12,9 @@ const registry: Partial<{ [K in Block["type"]]: Renderer<K> }> = {
   text: renderTextBlock,
   textImage: renderTextImageBlock,
   benefitsList: renderBenefitsListBlock,
+  pricingTable: renderPricingTableBlock,
+  testimonial: renderTestimonialBlock,
+  gallery: renderGalleryBlock,
 };
 
 export function renderBlock(block: Block): string {
