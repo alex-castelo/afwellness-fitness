@@ -102,7 +102,7 @@ remaining five blocks are added.
 ### Phase 3: Full block catalog
 
 - [x] **Task 5: Blocks batch A — `textImage`, `benefitsList`**
-- [ ] **Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery`**
+- [x] **Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery`**
 
 ### Checkpoint 3: All blocks implemented
 - [ ] `pnpm --filter pdf-brochure test` passes for all 6 blocks

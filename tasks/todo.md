@@ -16,9 +16,10 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 
 ## Phase 3: Full block catalog
 - [x] Task 5: Blocks batch A — `textImage`, `benefitsList`
-- [ ] Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery` (can run in parallel with Task 5)
+- [x] Task 6: Blocks batch B — `pricingTable`, `testimonial`, `gallery` (can run in parallel with Task 5)
 
 **Checkpoint 3** — all 6 blocks tested, typecheck/lint clean. Human review.
+✅ 45 tests passing, typecheck/lint clean — all 6 block types implemented and registered
 
 ## Phase 4: Integration, visual pass, polish
 - [ ] Task 7: Full sample content (all 6 block types) + template visual/branding pass (needs sign-off)
