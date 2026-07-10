@@ -79,7 +79,7 @@ remaining five blocks are added.
 ### Phase 1: Foundation
 
 - [x] **Task 1: Root workspace scaffold**
-- [ ] **Task 2: pdf-brochure package skeleton + CLI shell**
+- [x] **Task 2: pdf-brochure package skeleton + CLI shell**
 
 ### Checkpoint 1: Foundation
 - [ ] `pnpm install` succeeds at root

@@ -4,9 +4,9 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 
 ## Phase 1: Foundation
 - [x] Task 1: Root workspace scaffold (`pnpm-workspace.yaml`, root `package.json`, `tsconfig.base.json`, `biome.json`)
-- [ ] Task 2: pdf-brochure package skeleton + CLI shell (`package.json`, `tsconfig.json`, `cli.ts` stub, root convenience scripts)
+- [x] Task 2: pdf-brochure package skeleton + CLI shell (`package.json`, `tsconfig.json`, `cli.ts` stub, root convenience scripts)
 
-**Checkpoint 1** — `pnpm install` clean; typecheck/lint clean; CLI stubs run without crashing. Human review.
+**Checkpoint 1** — `pnpm install` clean; typecheck/lint clean; CLI stubs run without crashing. Human review. ✅ done
 
 ## Phase 2: Core pipeline (highest risk — build first)
 - [ ] Task 3: Content schema (Zod) — full catalog contract + `validate` command
