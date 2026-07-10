@@ -9,7 +9,7 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 **Checkpoint 1** — `pnpm install` clean; typecheck/lint clean; CLI stubs run without crashing. Human review. ✅ done
 
 ## Phase 2: Core pipeline (highest risk — build first)
-- [ ] Task 3: Content schema (Zod) — full catalog contract + `validate` command
+- [x] Task 3: Content schema (Zod) — full catalog contract + `validate` command
 - [ ] Task 4: Minimal template + `text` block + render pipeline — **first real PDF**
 
 **Checkpoint 2 — critical** — `generate` produces a real PDF (cover+header+footer+text), `validate` accepts/rejects correctly, tests pass, PDF opened and visually confirmed. **Human review required before continuing.**

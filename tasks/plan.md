@@ -89,7 +89,7 @@ remaining five blocks are added.
 
 ### Phase 2: Core pipeline (highest risk — build and prove this first)
 
-- [ ] **Task 3: Content schema (Zod) — full catalog contract**
+- [x] **Task 3: Content schema (Zod) — full catalog contract**
 - [ ] **Task 4: Minimal template + `text` block + render pipeline (first real PDF)**
 
 ### Checkpoint 2: Core pipeline proven end-to-end
