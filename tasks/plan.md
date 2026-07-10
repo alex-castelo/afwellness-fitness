@@ -90,7 +90,7 @@ remaining five blocks are added.
 ### Phase 2: Core pipeline (highest risk — build and prove this first)
 
 - [x] **Task 3: Content schema (Zod) — full catalog contract**
-- [ ] **Task 4: Minimal template + `text` block + render pipeline (first real PDF)**
+- [x] **Task 4: Minimal template + `text` block + render pipeline (first real PDF)**
 
 ### Checkpoint 2: Core pipeline proven end-to-end
 - [ ] `pnpm --filter pdf-brochure validate` accepts a valid minimal content file and rejects an invalid one with a clear error

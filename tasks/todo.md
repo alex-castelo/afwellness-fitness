@@ -10,9 +10,9 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 
 ## Phase 2: Core pipeline (highest risk — build first)
 - [x] Task 3: Content schema (Zod) — full catalog contract + `validate` command
-- [ ] Task 4: Minimal template + `text` block + render pipeline — **first real PDF**
+- [x] Task 4: Minimal template + `text` block + render pipeline — **first real PDF**
 
-**Checkpoint 2 — critical** — `generate` produces a real PDF (cover+header+footer+text), `validate` accepts/rejects correctly, tests pass, PDF opened and visually confirmed. **Human review required before continuing.**
+**Checkpoint 2 — critical** — `generate` produces a real PDF (cover+header+footer+text), `validate` accepts/rejects correctly, tests pass, PDF opened and visually confirmed. **Human review required before continuing.** ⏳ awaiting your visual confirmation of `packages/pdf-brochure/output/brochure.pdf`
 
 ## Phase 3: Full block catalog
 - [ ] Task 5: Blocks batch A — `textImage`, `benefitsList`
