@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Sesión grupal de entrenamiento en equipo (imagen de referencia)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#e0bc52"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g transform="translate(400,270)" fill="#ffffff" fill-opacity="0.92">
+    <circle cx="-60" cy="0" r="55"/>
+    <circle cx="60" cy="0" r="55"/>
+    <circle cx="0" cy="-70" r="55"/>
+  </g>
+  <text x="24" y="576" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.55)">Imagen de referencia — a sustituir</text>
+</svg>

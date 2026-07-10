@@ -22,10 +22,11 @@ Full detail, acceptance criteria, and verification steps: `tasks/plan.md`.
 ✅ 45 tests passing, typecheck/lint clean — all 6 block types implemented and registered
 
 ## Phase 4: Integration, visual pass, polish
-- [ ] Task 7: Full sample content (all 6 block types) + template visual/branding pass (needs sign-off)
-- [ ] Task 8: Root convenience scripts verified + final full-repo QA sweep
+- [x] Task 7: Full sample content (all 6 block types) + template visual/branding pass (needs sign-off)
+- [x] Task 8: Root convenience scripts verified + final full-repo QA sweep
 
 **Checkpoint 4 — complete** — `pnpm generate`/`pnpm validate` work from root, full test/typecheck/lint sweep green, sample PDF visually approved, SPEC boundaries respected.
+✅ Full sample content (all 6 blocks) visually approved by developer; root `generate`/`validate` aliases confirmed; test (45/45)/typecheck/lint all clean.
 
 ## Resolved decisions (previously open questions — see plan.md)
 - [x] Document-level metadata: company name, address, email, phone, website, Instagram; logo optional (pending)

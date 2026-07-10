@@ -9,7 +9,90 @@
     {
       "type": "text",
       "heading": "Bienestar corporativo a medida",
-      "body": "Diseñamos programas de entrenamiento y bienestar para equipos de cualquier tamaño, adaptados a los objetivos y al ritmo de cada empresa."
+      "body": "Diseñamos programas de entrenamiento y bienestar para equipos de cualquier tamaño, adaptados a los objetivos, el espacio y el ritmo de cada empresa. Un equipo más activo y con menos estrés es un equipo más productivo — y ese es exactamente el resultado que buscamos en cada colaboración."
+    },
+    {
+      "type": "textImage",
+      "heading": "Entrenamiento personalizado, en tu propio espacio",
+      "body": "Nuestros entrenadores certificados se desplazan a las instalaciones de la empresa —o coordinan sesiones en un centro cercano— para ofrecer entrenamiento funcional adaptado a distintos niveles de condición física. Sesiones individuales o grupales, con seguimiento continuo de progreso y ajustes según la disponibilidad del equipo.",
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkVudHJlbmFkb3IgcGVyc29uYWwgZ3VpYW5kbyB1bmEgc2VzacOzbiBkZSBlbnRyZW5hbWllbnRvIGZ1bmNpb25hbCAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMGY0YzNhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE2Njk0ZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIj4KICAgIDxyZWN0IHg9Ii0xNDAiIHk9Ii0xNiIgd2lkdGg9IjI4MCIgaGVpZ2h0PSIzMiIgcng9IjE2Ii8+CiAgICA8cmVjdCB4PSItMTcwIiB5PSItNDUiIHdpZHRoPSIzMCIgaGVpZ2h0PSI5MCIgcng9IjgiLz4KICAgIDxyZWN0IHg9IjE0MCIgeT0iLTQ1IiB3aWR0aD0iMzAiIGhlaWdodD0iOTAiIHJ4PSI4Ii8+CiAgICA8cmVjdCB4PSItMjAwIiB5PSItMzAiIHdpZHRoPSIyMCIgaGVpZ2h0PSI2MCIgcng9IjYiLz4KICAgIDxyZWN0IHg9IjE4MCIgeT0iLTMwIiB3aWR0aD0iMjAiIGhlaWdodD0iNjAiIHJ4PSI2Ii8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
+      "imageAlt": "Entrenador personal guiando una sesión de entrenamiento funcional",
+      "imagePosition": "right"
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Por qué las empresas confían en AFS",
+      "items": [
+        "Reducción medible del absentismo laboral asociado al estrés y a problemas posturales",
+        "Mejora de la cohesión de equipo mediante sesiones grupales y retos compartidos",
+        "Entrenadores certificados con experiencia en entornos corporativos",
+        "Horarios flexibles: antes, durante o después de la jornada laboral",
+        "Seguimiento de resultados con informes periódicos para RRHH"
+      ]
+    },
+    {
+      "type": "pricingTable",
+      "heading": "Planes para empresas",
+      "tiers": [
+        {
+          "name": "Starter",
+          "price": "Desde 450€/mes",
+          "features": [
+            "1 sesión grupal semanal (hasta 10 personas)",
+            "Evaluación física inicial del grupo",
+            "Informe trimestral de participación"
+          ]
+        },
+        {
+          "name": "Growth",
+          "price": "Desde 890€/mes",
+          "features": [
+            "3 sesiones semanales (grupales e individuales)",
+            "Evaluación física inicial y de seguimiento",
+            "Plan nutricional básico incluido",
+            "Informe mensual de resultados para RRHH"
+          ],
+          "highlighted": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "Precio a medida",
+          "features": [
+            "Sesiones diarias adaptadas a varios equipos o sedes",
+            "Entrenador dedicado y plan nutricional personalizado",
+            "Eventos de bienestar y team building trimestrales",
+            "Panel de resultados en tiempo real para RRHH"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "heading": "Nuestro trabajo en imágenes",
+      "images": [
+        {
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPlNlc2nDs24gZ3J1cGFsIGRlIGVudHJlbmFtaWVudG8gZW4gZXF1aXBvIChpbWFnZW4gZGUgcmVmZXJlbmNpYSk8L3RpdGxlPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNjOWEyMjciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTBiYzUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0idXJsKCNnKSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMCwyNzApIiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuOTIiPgogICAgPGNpcmNsZSBjeD0iLTYwIiBjeT0iMCIgcj0iNTUiLz4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iMCIgcj0iNTUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSItNzAiIHI9IjU1Ii8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
+          "alt": "Sesión grupal de entrenamiento en equipo"
+        },
+        {
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkVudHJlbmFtaWVudG8gZnVuY2lvbmFsIGVuIG9maWNpbmEgKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxYzVmNmIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLW9wYWNpdHk9IjAuOTIiIHN0cm9rZS13aWR0aD0iMTQiPgogICAgPHBhdGggZD0iTSAtMzUgLTU1IEEgMzUgMzUgMCAwIDEgMzUgLTU1IiAvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjIwIiByPSI5MCIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIiBzdHJva2U9Im5vbmUiLz4KICA8L2c+CiAgPHRleHQgeD0iMjQiIHk9IjU3NiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNTUpIj5JbWFnZW4gZGUgcmVmZXJlbmNpYSDigJQgYSBzdXN0aXR1aXI8L3RleHQ+Cjwvc3ZnPgo=",
+          "alt": "Entrenamiento funcional en las oficinas de un cliente"
+        },
+        {
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkV2YWx1YWNpw7NuIGbDrXNpY2EgaW5pY2lhbCAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWM1ZjZiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIj4KICAgIDxyZWN0IHg9Ii05MCIgeT0iLTExMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyMjAiIHJ4PSIxNCIvPgogICAgPHJlY3QgeD0iLTM1IiB5PSItMTMwIiB3aWR0aD0iNzAiIGhlaWdodD0iMzAiIHJ4PSI4Ii8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0gMzU1IDI3NSBMIDM5MCAzMTAgTCA0NTAgMjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjRjM2EiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwwKSIvPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
+          "alt": "Evaluación física inicial de un participante"
+        },
+        {
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkV2ZW50byBkZSBiaWVuZXN0YXIgY29ycG9yYXRpdm8gKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjOWEyMjciLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45MiI+CiAgICA8cmVjdCB4PSItMTEwIiB5PSItMTQwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjI0MCIgcng9IjEwIi8+CiAgICA8cmVjdCB4PSItODAiIHk9Ii0xMTAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzBmNGMzYSIvPgogICAgPHJlY3QgeD0iLTEwIiB5PSItMTEwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9IjYwIiB5PSItMTEwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9Ii04MCIgeT0iLTQwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9Ii0xMCIgeT0iLTQwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9IjYwIiB5PSItNDAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzBmNGMzYSIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSI0MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjMGY0YzNhIi8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
+          "alt": "Evento de bienestar corporativo en una sede de empresa"
+        }
+      ]
+    },
+    {
+      "type": "testimonial",
+      "quote": "Desde que incorporamos las sesiones de AFS, notamos un equipo más unido y con más energía durante la jornada. La flexibilidad de horarios hizo que la adopción fuera inmediata.",
+      "author": "Marta Puig",
+      "role": "Directora de RRHH, Nexora Consulting"
     }
   ]
 }

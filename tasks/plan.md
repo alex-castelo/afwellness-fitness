@@ -111,15 +111,15 @@ remaining five blocks are added.
 
 ### Phase 4: Integration, visual pass, and polish
 
-- [ ] **Task 7: Full sample content + template visual pass**
-- [ ] **Task 8: Root convenience scripts + final QA pass**
+- [x] **Task 7: Full sample content + template visual pass**
+- [x] **Task 8: Root convenience scripts + final QA pass**
 
 ### Checkpoint 4: Complete
-- [ ] `pnpm generate` and `pnpm validate` work from repo root (convenience aliases)
-- [ ] Full sample PDF exercising all 6 block types manually reviewed and looks correct
-- [ ] `pnpm --filter pdf-brochure test|typecheck|lint` all green
-- [ ] SPEC.md boundaries respected (no edits to `template/`/`blocks/` visual code outside this build, no undisclosed dependency changes)
-- [ ] Ready to hand off: developer can now iterate on real content via `content/brochure.json`
+- [x] `pnpm generate` and `pnpm validate` work from repo root (convenience aliases)
+- [x] Full sample PDF exercising all 6 block types manually reviewed and looks correct
+- [x] `pnpm --filter pdf-brochure test|typecheck|lint` all green
+- [x] SPEC.md boundaries respected (no edits to `template/`/`blocks/` visual code outside this build, no undisclosed dependency changes)
+- [x] Ready to hand off: developer can now iterate on real content via `content/brochure.json`
 
 ---
 
