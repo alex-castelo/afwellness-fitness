@@ -1,4 +1,6 @@
+import { readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import { validateContent } from "./schema/content.schema.js";
 
 export type Command = "generate" | "validate";
 
@@ -49,7 +51,24 @@ async function main(): Promise<void> {
     return;
   }
 
-  console.log(`validate: not yet implemented (content=${parsed.content})`);
+  await runValidate(parsed.content);
+}
+
+async function runValidate(contentPath: string): Promise<void> {
+  const raw = await readFile(contentPath, "utf-8");
+  const data = JSON.parse(raw);
+  const result = validateContent(data);
+
+  if (result.success) {
+    console.log(`✓ ${contentPath} is valid.`);
+    return;
+  }
+
+  console.error(`✗ ${contentPath} is invalid:`);
+  for (const message of result.errors) {
+    console.error(`  - ${message}`);
+  }
+  process.exitCode = 1;
 }
 
 const isMainModule =

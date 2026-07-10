@@ -1,0 +1,14 @@
+{
+  "companyName": "AFS Corporate Wellness",
+  "address": "Av. Diagonal, 686 (08034 Barcelona) — Real Club de Polo Barcelona",
+  "email": "afscorporatewellness@gmail.com",
+  "phone": "+34 679 64 91 27",
+  "website": "afscorporatewellness.com",
+  "instagram": "@alex.febre",
+  "blocks": [
+    {
+      "type": "carousel",
+      "images": ["./assets/images/sesion-1.jpg"]
+    }
+  ]
+}
