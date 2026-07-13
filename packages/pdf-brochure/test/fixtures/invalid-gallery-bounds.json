@@ -5,6 +5,7 @@
   "phone": "+34 679 64 91 27",
   "website": "afscorporatewellness.com",
   "instagram": "@alex.febre",
+  "cover": { "title": "CORPORATE WELLNESS", "tagline": "Transformamos salud en rendimiento." },
   "blocks": [
     {
       "type": "gallery",

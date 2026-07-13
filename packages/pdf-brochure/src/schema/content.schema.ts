@@ -10,6 +10,19 @@ const documentMetadataSchema = z.object({
   logoUrl: z.string().min(1).optional(),
 });
 
+const coverLocationSchema = z.object({
+  title: z.string().min(1),
+  description: z.string().min(1),
+});
+
+const coverSchema = z.object({
+  title: z.string().min(1),
+  tagline: z.string().min(1),
+  subtitle: z.string().min(1).optional(),
+  pillars: z.array(z.string().min(1)).min(1).max(4).optional(),
+  location: coverLocationSchema.optional(),
+});
+
 const textBlockSchema = z.object({
   type: z.literal("text"),
   heading: z.string().min(1).optional(),
@@ -72,6 +85,7 @@ const blockSchema = z.discriminatedUnion("type", [
 ]);
 
 export const brochureContentSchema = documentMetadataSchema.extend({
+  cover: coverSchema,
   blocks: z.array(blockSchema),
 });
 

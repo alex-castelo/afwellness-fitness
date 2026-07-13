@@ -5,94 +5,284 @@
   "phone": "+34 679 64 91 27",
   "website": "afscorporatewellness.com",
   "instagram": "@alex.febre",
+  "cover": {
+    "title": "Corporate Wellness",
+    "tagline": "Transformamos salud en rendimiento.",
+    "subtitle": "Formación, experiencias y programas de bienestar para equipos que buscan liderar el cambio.",
+    "pillars": ["Personas más sanas", "Equipos más fuertes", "Empresas más competitivas"],
+    "location": {
+      "title": "Real Club de Polo de Barcelona",
+      "description": "Un entorno único para el bienestar corporativo."
+    }
+  },
   "blocks": [
     {
       "type": "text",
-      "heading": "Bienestar corporativo a medida",
-      "body": "Diseñamos programas de entrenamiento y bienestar para equipos de cualquier tamaño, adaptados a los objetivos, el espacio y el ritmo de cada empresa. Un equipo más activo y con menos estrés es un equipo más productivo — y ese es exactamente el resultado que buscamos en cada colaboración."
-    },
-    {
-      "type": "textImage",
-      "heading": "Entrenamiento personalizado, en tu propio espacio",
-      "body": "Nuestros entrenadores certificados se desplazan a las instalaciones de la empresa —o coordinan sesiones en un centro cercano— para ofrecer entrenamiento funcional adaptado a distintos niveles de condición física. Sesiones individuales o grupales, con seguimiento continuo de progreso y ajustes según la disponibilidad del equipo.",
-      "imageUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkVudHJlbmFkb3IgcGVyc29uYWwgZ3VpYW5kbyB1bmEgc2VzacOzbiBkZSBlbnRyZW5hbWllbnRvIGZ1bmNpb25hbCAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMGY0YzNhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE2Njk0ZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIj4KICAgIDxyZWN0IHg9Ii0xNDAiIHk9Ii0xNiIgd2lkdGg9IjI4MCIgaGVpZ2h0PSIzMiIgcng9IjE2Ii8+CiAgICA8cmVjdCB4PSItMTcwIiB5PSItNDUiIHdpZHRoPSIzMCIgaGVpZ2h0PSI5MCIgcng9IjgiLz4KICAgIDxyZWN0IHg9IjE0MCIgeT0iLTQ1IiB3aWR0aD0iMzAiIGhlaWdodD0iOTAiIHJ4PSI4Ii8+CiAgICA8cmVjdCB4PSItMjAwIiB5PSItMzAiIHdpZHRoPSIyMCIgaGVpZ2h0PSI2MCIgcng9IjYiLz4KICAgIDxyZWN0IHg9IjE4MCIgeT0iLTMwIiB3aWR0aD0iMjAiIGhlaWdodD0iNjAiIHJ4PSI2Ii8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
-      "imageAlt": "Entrenador personal guiando una sesión de entrenamiento funcional",
-      "imagePosition": "right"
+      "heading": "El bienestar ya no es un beneficio, es una decisión estratégica",
+      "body": "Las organizaciones más exitosas han comprendido que la salud, la energía y el bienestar de las personas impactan directamente en los resultados del negocio."
     },
     {
       "type": "benefitsList",
-      "heading": "Por qué las empresas confían en AFS",
+      "heading": "Los principales retos de las organizaciones",
       "items": [
-        "Reducción medible del absentismo laboral asociado al estrés y a problemas posturales",
-        "Mejora de la cohesión de equipo mediante sesiones grupales y retos compartidos",
-        "Entrenadores certificados con experiencia en entornos corporativos",
-        "Horarios flexibles: antes, durante o después de la jornada laboral",
-        "Seguimiento de resultados con informes periódicos para RRHH"
+        "Sedentarismo: largas jornadas frente a pantallas y falta de movimiento — dolor de espalda, rigidez muscular, fatiga física y menor rendimiento.",
+        "Fatiga y falta de energía: jornadas intensas y hábitos poco saludables — menor concentración, menos productividad y mayor agotamiento.",
+        "Estrés y carga mental: entornos exigentes y alta presión profesional — más estrés, menor bienestar emocional y mayor riesgo de burnout.",
+        "Desconexión entre equipos: falta de espacios compartidos y experiencias significativas — menos compromiso, menos cohesión y menor sentimiento de pertenencia."
       ]
     },
     {
-      "type": "pricingTable",
-      "heading": "Planes para empresas",
-      "tiers": [
-        {
-          "name": "Starter",
-          "price": "Desde 450€/mes",
-          "features": [
-            "1 sesión grupal semanal (hasta 10 personas)",
-            "Evaluación física inicial del grupo",
-            "Informe trimestral de participación"
-          ]
-        },
-        {
-          "name": "Growth",
-          "price": "Desde 890€/mes",
-          "features": [
-            "3 sesiones semanales (grupales e individuales)",
-            "Evaluación física inicial y de seguimiento",
-            "Plan nutricional básico incluido",
-            "Informe mensual de resultados para RRHH"
-          ],
-          "highlighted": true
-        },
-        {
-          "name": "Enterprise",
-          "price": "Precio a medida",
-          "features": [
-            "Sesiones diarias adaptadas a varios equipos o sedes",
-            "Entrenador dedicado y plan nutricional personalizado",
-            "Eventos de bienestar y team building trimestrales",
-            "Panel de resultados en tiempo real para RRHH"
-          ]
-        }
+      "type": "benefitsList",
+      "heading": "El coste oculto para la organización",
+      "items": [
+        "Menor productividad",
+        "Más bajas laborales",
+        "Incremento de costes indirectos",
+        "Mayor rotación de talento",
+        "Descenso del compromiso",
+        "Peor clima laboral"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "«Las empresas que invierten en bienestar corporativo construyen equipos más saludables, comprometidos y productivos.»"
+    },
+    {
+      "type": "text",
+      "heading": "Bienestar para las personas. Resultados para la empresa.",
+      "body": "Invertir en bienestar corporativo no es un gasto, es una estrategia que impulsa el rendimiento, fortalece la cultura y genera un impacto positivo y medible en toda la organización."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Por qué invertir en wellness corporativo",
+      "items": [
+        "Mayor productividad: equipos más sanos y con más energía rinden mejor y alcanzan sus objetivos.",
+        "Bienestar y salud integral: mejora la salud física y mental, reduce el estrés y aumenta la vitalidad.",
+        "Mayor compromiso y retención: las personas cuidadas están más motivadas y permanecen más tiempo en la empresa.",
+        "Reducción del absentismo: equipos saludables faltan menos, reduciendo costes operativos.",
+        "Mejora del clima laboral: fomenta relaciones positivas y colaboración productiva.",
+        "Employer branding: atrae y fideliza talento, reforzando la reputación de marca."
+      ]
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Impacto medible",
+      "items": [
+        "+21% más productividad en equipos que participan en programas de bienestar.",
+        "-27% menos absentismo en empresas con iniciativas de salud y bienestar.",
+        "+41% más compromiso en empleados que se sienten valorados.",
+        "-32% menos rotación en empresas que invierten en sus equipos."
+      ]
+    },
+    {
+      "type": "text",
+      "body": "«El bienestar de tus equipos es el motor del éxito sostenible.»"
+    },
+    {
+      "type": "text",
+      "heading": "Nuestra solución",
+      "body": "Corporate Wellness Experiences: diseñamos programas a medida que combinan formación, actividad física y experiencias en entornos exclusivos."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Los tres pilares de nuestras soluciones",
+      "items": [
+        "Formación corporativa: programas prácticos para promover hábitos saludables en el entorno laboral (espalda saludable, movilidad, entrenamiento adaptado, alimentación saludable y planificación semanal de comidas).",
+        "Experiencias corporativas: actividades para fortalecer equipos y generar conexión (Corporate Wellness Day, Active Team Experience, Corporate Fitness Challenge, Wellness & Networking Experience).",
+        "Experiencia premium — Real Club de Polo Experience™: bienestar, networking y exclusividad en uno de los clubes más prestigiosos de Barcelona."
+      ]
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Beneficios directos",
+      "items": [
+        "Equipos más saludables",
+        "Mayor energía",
+        "Mejor clima laboral",
+        "Refuerzo de la cultura",
+        "Employer branding",
+        "Fidelización del talento"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "Wellness Morning — Essential Experience",
+      "body": "Media jornada de bienestar para impulsar la energía, la motivación y la conexión de tu equipo. Una mañana puede ser suficiente para cambiar la energía de todo un equipo."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Ficha técnica y qué incluye",
+      "items": [
+        "Duración: 3-4 horas · Formato presencial · Grupos de 10 a 40 personas (adaptable) · Real Club de Polo de Barcelona",
+        "Recepción",
+        "Sesión de movilidad y activación",
+        "Taller práctico de hábitos o nutrición",
+        "Actividad física adaptada",
+        "Dinámica de cohesión",
+        "Coffee break saludable",
+        "Espacio de networking"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "Objetivos e ideal para",
+      "body": "Incrementar energía, reducir sedentarismo e introducir hábitos de forma ágil. Ideal para jornadas internas de RRHH o equipos con poco tiempo que buscan alto valor en formato compacto."
+    },
+    {
+      "type": "text",
+      "heading": "Corporate Energy Day — Premium Experience",
+      "body": "Una jornada completa para fortalecer la cultura de empresa, elevar la energía del equipo y generar conexiones que duran más allá del día."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Ficha técnica y qué incluye",
+      "items": [
+        "Duración: 5-6 horas · Formato presencial · Grupos de 10 a 40 personas (adaptable a más) · Real Club de Polo de Barcelona",
+        "Recepción con desayuno saludable",
+        "Conferencia inspiradora sobre bienestar y alto rendimiento",
+        "Taller práctico (nutrición o estrés)",
+        "Entrenamiento funcional",
+        "Dinámicas de team building",
+        "Almuerzo saludable",
+        "Actividad experiencial al aire libre",
+        "Cierre con plan de acción personal"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "Objetivos e ideal para",
+      "body": "Elevar la motivación al máximo, fortalecer la confianza del equipo e impactar la cultura empresarial. Ideal para convenciones de departamentos, empresas en crecimiento o celebraciones corporativas de un día completo."
+    },
+    {
+      "type": "text",
+      "heading": "Corporate Polo Experience™ — Signature Experience",
+      "body": "La propuesta más exclusiva de AFS Corporate Wellness. Una experiencia premium donde bienestar, gastronomía y networking se unen en el club más prestigioso de la ciudad para ofrecer algo diferencial a equipos, clientes o directivos."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Ficha técnica y qué incluye",
+      "items": [
+        "Duración: 6-7 horas · Formato presencial · Grupo selecto de 10-40 personas máximo · Real Club de Polo de Barcelona",
+        "Recepción VIP personalizada",
+        "Visita privada por las instalaciones históricas del club",
+        "Sesión exclusiva de bienestar y movilidad",
+        "Taller premium de gestión de energía",
+        "Experiencia gastronómica de alta cocina saludable (brunch, lunch o cóctel)",
+        "Corporate Take Away: detalle de despedida corporativo"
+      ]
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Corporate Wellness Gift",
+      "items": [
+        "Botella térmica personalizada",
+        "Libreta de hábitos",
+        "Kit de snacks saludables",
+        "Guía digital con 30 días de acceso a contenidos"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "Ideal para",
+      "body": "Comités de dirección, clientes estratégicos, equipos comerciales de alto rendimiento o programas VIP de fidelización."
+    },
+    {
+      "type": "text",
+      "heading": "Real Club de Polo de Barcelona",
+      "body": "Un entorno único para experiencias corporativas de alto valor que combina tradición, exclusividad y modernidad. Más de 100 años de prestigio e historia, club privado de referencia y ubicación estratégica privilegiada a pocos minutos del centro de Barcelona."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "Espacios disponibles",
+      "items": [
+        "Salas corporativas totalmente equipadas con tecnología de última generación.",
+        "Jardines y terrazas naturales idóneos para actividades al aire libre.",
+        "Espacios gastronómicos con propuestas culinarias de alta calidad y saludables.",
+        "Instalaciones deportivas de primer nivel internacional y zonas de networking privadas."
       ]
     },
     {
       "type": "gallery",
-      "heading": "Nuestro trabajo en imágenes",
+      "heading": "El club en imágenes",
       "images": [
         {
-          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPlNlc2nDs24gZ3J1cGFsIGRlIGVudHJlbmFtaWVudG8gZW4gZXF1aXBvIChpbWFnZW4gZGUgcmVmZXJlbmNpYSk8L3RpdGxlPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNjOWEyMjciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTBiYzUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0idXJsKCNnKSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMCwyNzApIiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuOTIiPgogICAgPGNpcmNsZSBjeD0iLTYwIiBjeT0iMCIgcj0iNTUiLz4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iMCIgcj0iNTUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSItNzAiIHI9IjU1Ii8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
-          "alt": "Sesión grupal de entrenamiento en equipo"
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPlNhbGEgY29ycG9yYXRpdmEgZXF1aXBhZGEgKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNjY5NGYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45MiI+CiAgICA8cmVjdCB4PSItMTQwIiB5PSItMTYiIHdpZHRoPSIyODAiIGhlaWdodD0iMzIiIHJ4PSIxNiIvPgogICAgPHJlY3QgeD0iLTE3MCIgeT0iLTQ1IiB3aWR0aD0iMzAiIGhlaWdodD0iOTAiIHJ4PSI4Ii8+CiAgICA8cmVjdCB4PSIxNDAiIHk9Ii00NSIgd2lkdGg9IjMwIiBoZWlnaHQ9IjkwIiByeD0iOCIvPgogIDwvZz4KICA8dGV4dCB4PSIyNCIgeT0iNTc2IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC41NSkiPkltYWdlbiBkZSByZWZlcmVuY2lhIOKAlCBhIHN1c3RpdHVpcjwvdGV4dD4KPC9zdmc+Cg==",
+          "alt": "Sala corporativa equipada con tecnología de última generación"
         },
         {
-          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkVudHJlbmFtaWVudG8gZnVuY2lvbmFsIGVuIG9maWNpbmEgKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxYzVmNmIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLW9wYWNpdHk9IjAuOTIiIHN0cm9rZS13aWR0aD0iMTQiPgogICAgPHBhdGggZD0iTSAtMzUgLTU1IEEgMzUgMzUgMCAwIDEgMzUgLTU1IiAvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjIwIiByPSI5MCIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIiBzdHJva2U9Im5vbmUiLz4KICA8L2c+CiAgPHRleHQgeD0iMjQiIHk9IjU3NiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNTUpIj5JbWFnZW4gZGUgcmVmZXJlbmNpYSDigJQgYSBzdXN0aXR1aXI8L3RleHQ+Cjwvc3ZnPgo=",
-          "alt": "Entrenamiento funcional en las oficinas de un cliente"
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkphcmRpbmVzIHkgdGVycmF6YXMgKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M5YTIyNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGJjNTIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45MiI+CiAgICA8Y2lyY2xlIGN4PSItNjAiIGN5PSIwIiByPSI1NSIvPgogICAgPGNpcmNsZSBjeD0iNjAiIGN5PSIwIiByPSI1NSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9Ii03MCIgcj0iNTUiLz4KICA8L2c+CiAgPHRleHQgeD0iMjQiIHk9IjU3NiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNTUpIj5JbWFnZW4gZGUgcmVmZXJlbmNpYSDigJQgYSBzdXN0aXR1aXI8L3RleHQ+Cjwvc3ZnPgo=",
+          "alt": "Jardines y terrazas al aire libre para actividades corporativas"
         },
         {
-          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkV2YWx1YWNpw7NuIGbDrXNpY2EgaW5pY2lhbCAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWM1ZjZiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIj4KICAgIDxyZWN0IHg9Ii05MCIgeT0iLTExMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyMjAiIHJ4PSIxNCIvPgogICAgPHJlY3QgeD0iLTM1IiB5PSItMTMwIiB3aWR0aD0iNzAiIGhlaWdodD0iMzAiIHJ4PSI4Ii8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0gMzU1IDI3NSBMIDM5MCAzMTAgTCA0NTAgMjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjRjM2EiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwwKSIvPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
-          "alt": "Evaluación física inicial de un participante"
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkVzcGFjaW8gZ2FzdHJvbsOzbWljbyAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWM1ZjZiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjkyIj4KICAgIDxyZWN0IHg9Ii05MCIgeT0iLTExMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyMjAiIHJ4PSIxNCIvPgogICAgPHJlY3QgeD0iLTM1IiB5PSItMTMwIiB3aWR0aD0iNzAiIGhlaWdodD0iMzAiIHJ4PSI4Ii8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
+          "alt": "Espacio gastronómico con propuestas culinarias saludables"
         },
         {
-          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkV2ZW50byBkZSBiaWVuZXN0YXIgY29ycG9yYXRpdm8gKGltYWdlbiBkZSByZWZlcmVuY2lhKTwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNGMzYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjOWEyMjciLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAwLDI3MCkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC45MiI+CiAgICA8cmVjdCB4PSItMTEwIiB5PSItMTQwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjI0MCIgcng9IjEwIi8+CiAgICA8cmVjdCB4PSItODAiIHk9Ii0xMTAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzBmNGMzYSIvPgogICAgPHJlY3QgeD0iLTEwIiB5PSItMTEwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9IjYwIiB5PSItMTEwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9Ii04MCIgeT0iLTQwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9Ii0xMCIgeT0iLTQwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMwZjRjM2EiLz4KICAgIDxyZWN0IHg9IjYwIiB5PSItNDAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzBmNGMzYSIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSI0MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjMGY0YzNhIi8+CiAgPC9nPgogIDx0ZXh0IHg9IjI0IiB5PSI1NzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjU1KSI+SW1hZ2VuIGRlIHJlZmVyZW5jaWEg4oCUIGEgc3VzdGl0dWlyPC90ZXh0Pgo8L3N2Zz4K",
-          "alt": "Evento de bienestar corporativo en una sede de empresa"
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+CiAgPHRpdGxlPkluc3RhbGFjaW9uZXMgZGVwb3J0aXZhcyAoaW1hZ2VuIGRlIHJlZmVyZW5jaWEpPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMGY0YzNhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5YTIyNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIGZpbGw9InVybCgjZykiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MDAsMjcwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utb3BhY2l0eT0iMC45MiIgc3Ryb2tlLXdpZHRoPSIxNCI+CiAgICA8cGF0aCBkPSJNIC0zNSAtNTUgQSAzNSAzNSAwIDAgMSAzNSAtNTUiIC8+CiAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMjAiIHI9IjkwIiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuOTIiIHN0cm9rZT0ibm9uZSIvPgogIDwvZz4KICA8dGV4dCB4PSIyNCIgeT0iNTc2IiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC41NSkiPkltYWdlbiBkZSByZWZlcmVuY2lhIOKAlCBhIHN1c3RpdHVpcjwvdGV4dD4KPC9zdmc+Cg==",
+          "alt": "Instalaciones deportivas de primer nivel internacional"
         }
       ]
     },
     {
-      "type": "testimonial",
-      "quote": "Desde que incorporamos las sesiones de AFS, notamos un equipo más unido y con más energía durante la jornada. La flexibilidad de horarios hizo que la adopción fuera inmediata.",
-      "author": "Marta Puig",
-      "role": "Directora de RRHH, Nexora Consulting"
+      "type": "pricingTable",
+      "heading": "Tarifario orientativo",
+      "tiers": [
+        {
+          "name": "Wellness Morning",
+          "price": "1.790 € + IVA / grupo",
+          "features": [
+            "Duración: 3h · Formato presencial · Grupo: 10-40 pax",
+            "Sesión de bienestar",
+            "Desayuno saludable",
+            "Uso de instalaciones"
+          ]
+        },
+        {
+          "name": "Corporate Energy Day",
+          "price": "2.490 € + IVA / grupo",
+          "features": [
+            "Duración: 5h · Formato presencial · Grupo: 10-40 pax",
+            "Bienestar y nutrición",
+            "Almuerzo gastronómico completo",
+            "Uso de instalaciones"
+          ],
+          "highlighted": true
+        },
+        {
+          "name": "Corporate Polo Experience™",
+          "price": "3.490 € + IVA / grupo",
+          "features": [
+            "Duración: 6h · Formato presencial · Grupo: 10-40 pax",
+            "Experiencia premium VIP completa",
+            "Gastronomía exclusiva",
+            "Espacios reservados"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "body": "Propuestas adaptables y personalizables en contenidos y duración según las necesidades de cada organización. Presupuesto definitivo sujeto al alcance técnico final del proyecto."
+    },
+    {
+      "type": "text",
+      "heading": "¿Empezamos?",
+      "body": "Estamos preparados para ayudarte a construir una organización más saludable, comprometida y productiva. Las organizaciones más exitosas entienden que cuidar de las personas no es un gasto. Es una inversión estratégica."
+    },
+    {
+      "type": "benefitsList",
+      "heading": "El proceso de propuesta personalizada",
+      "items": [
+        "Reunión inicial sin compromiso",
+        "Diseño del programa adaptado",
+        "Presupuesto a medida",
+        "Posibilidad de bonificación mediante FUNDAE",
+        "Seguimiento posterior"
+      ]
+    },
+    {
+      "type": "text",
+      "body": "«El bienestar no cambia únicamente cómo trabajan las personas. Cambia el futuro de las organizaciones.»"
     }
   ]
 }

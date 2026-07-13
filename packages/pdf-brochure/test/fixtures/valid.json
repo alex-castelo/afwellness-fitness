@@ -5,6 +5,16 @@
   "phone": "+34 679 64 91 27",
   "website": "afscorporatewellness.com",
   "instagram": "@alex.febre",
+  "cover": {
+    "title": "CORPORATE WELLNESS",
+    "tagline": "Transformamos salud en rendimiento.",
+    "subtitle": "Formación, experiencias y programas de bienestar para equipos que buscan liderar el cambio.",
+    "pillars": ["Personas más sanas", "Equipos más fuertes", "Empresas más competitivas"],
+    "location": {
+      "title": "Real Club de Polo de Barcelona",
+      "description": "Un entorno único para el bienestar corporativo."
+    }
+  },
   "blocks": [
     {
       "type": "text",

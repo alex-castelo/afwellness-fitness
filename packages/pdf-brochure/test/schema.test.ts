@@ -73,6 +73,31 @@ describe("validateContent", () => {
     }
   });
 
+  it("rejects content missing the cover title", () => {
+    const missingCoverTitle = {
+      ...(loadFixture("valid.json") as Record<string, unknown>),
+      cover: { tagline: "Transformamos salud en rendimiento." },
+    };
+
+    const result = validateContent(missingCoverTitle);
+
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.join("\n")).toMatch(/cover\.title/);
+    }
+  });
+
+  it("accepts a cover without optional subtitle, pillars, or location", () => {
+    const minimalCover = {
+      ...(loadFixture("valid.json") as Record<string, unknown>),
+      cover: { title: "CORPORATE WELLNESS", tagline: "Transformamos salud en rendimiento." },
+    };
+
+    const result = validateContent(minimalCover);
+
+    expect(result.success).toBe(true);
+  });
+
   it("rejects content missing required document metadata", () => {
     const missingCompanyName = {
       ...(loadFixture("valid.json") as Record<string, unknown>),
