@@ -1,4 +1,7 @@
 import { z } from "zod";
+import { iconKeys } from "../blocks/icons.js";
+
+const iconSchema = z.enum(iconKeys);
 
 const documentMetadataSchema = z.object({
   companyName: z.string().min(1),
@@ -75,6 +78,46 @@ const benefitsListBlockSchema = z.object({
   items: z.array(z.string().min(1)).min(1),
 });
 
+const heroBlockSchema = z.object({
+  type: z.literal("hero"),
+  heading: z.string().min(1),
+  headingHighlight: z.string().min(1),
+  body: z.string().min(1),
+  emphasis: z.string().min(1).optional(),
+  imageUrl: z.string().min(1),
+  imageAlt: z.string().min(1),
+});
+
+const challengeItemSchema = z.object({
+  icon: iconSchema,
+  title: z.string().min(1),
+  description: z.string().min(1),
+  consequences: z.array(z.string().min(1)).min(1),
+});
+
+const challengeGridBlockSchema = z.object({
+  type: z.literal("challengeGrid"),
+  heading: z.string().min(1),
+  items: z.array(challengeItemSchema).min(2).max(4),
+});
+
+const statHighlightItemSchema = z.object({
+  icon: iconSchema,
+  label: z.string().min(1),
+});
+
+const statHighlightsBlockSchema = z.object({
+  type: z.literal("statHighlights"),
+  heading: z.string().min(1),
+  description: z.string().min(1).optional(),
+  items: z.array(statHighlightItemSchema).min(2).max(6),
+});
+
+const pullQuoteBlockSchema = z.object({
+  type: z.literal("pullQuote"),
+  quote: z.string().min(1),
+});
+
 const blockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   textImageBlockSchema,
@@ -82,6 +125,10 @@ const blockSchema = z.discriminatedUnion("type", [
   galleryBlockSchema,
   testimonialBlockSchema,
   benefitsListBlockSchema,
+  heroBlockSchema,
+  challengeGridBlockSchema,
+  statHighlightsBlockSchema,
+  pullQuoteBlockSchema,
 ]);
 
 export const brochureContentSchema = documentMetadataSchema.extend({

@@ -98,6 +98,51 @@ describe("validateContent", () => {
     expect(result.success).toBe(true);
   });
 
+  it("rejects a challengeGrid or statHighlights item with an unrecognized icon key", () => {
+    const invalidIcon = {
+      ...(loadFixture("valid.json") as Record<string, unknown>),
+      blocks: [
+        {
+          type: "statHighlights",
+          heading: "El coste oculto",
+          items: [{ icon: "rocketShip", label: "Menor productividad" }],
+        },
+      ],
+    };
+
+    const result = validateContent(invalidIcon);
+
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.join("\n")).toMatch(/blocks\.0\.items\.0\.icon/);
+    }
+  });
+
+  it("rejects a challengeGrid with more than the maximum 4 items", () => {
+    const tooManyItems = {
+      ...(loadFixture("valid.json") as Record<string, unknown>),
+      blocks: [
+        {
+          type: "challengeGrid",
+          heading: "Retos",
+          items: Array.from({ length: 5 }, (_, i) => ({
+            icon: "brain",
+            title: `Reto ${i}`,
+            description: "Descripción",
+            consequences: ["Consecuencia"],
+          })),
+        },
+      ],
+    };
+
+    const result = validateContent(tooManyItems);
+
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.errors.join("\n")).toMatch(/blocks\.0\.items/);
+    }
+  });
+
   it("rejects content missing required document metadata", () => {
     const missingCompanyName = {
       ...(loadFixture("valid.json") as Record<string, unknown>),

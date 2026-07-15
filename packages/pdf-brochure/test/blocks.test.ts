@@ -1,8 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { renderBenefitsListBlock } from "../src/blocks/benefits-list.js";
+import { renderChallengeGridBlock } from "../src/blocks/challenge-grid.js";
 import { renderGalleryBlock } from "../src/blocks/gallery.js";
+import { renderHeroBlock } from "../src/blocks/hero.js";
 import { renderBlock } from "../src/blocks/index.js";
 import { renderPricingTableBlock } from "../src/blocks/pricing-table.js";
+import { renderPullQuoteBlock } from "../src/blocks/pull-quote.js";
+import { renderStatHighlightsBlock } from "../src/blocks/stat-highlights.js";
 import { renderTestimonialBlock } from "../src/blocks/testimonial.js";
 import { renderTextBlock } from "../src/blocks/text.js";
 import { renderTextImageBlock } from "../src/blocks/text-image.js";
@@ -263,6 +267,187 @@ describe("renderGalleryBlock", () => {
   });
 });
 
+describe("renderHeroBlock", () => {
+  const base = {
+    type: "hero" as const,
+    heading: "El bienestar ya no es\nun beneficio,",
+    headingHighlight: "es una decisión\nestratégica.",
+    body: "Las organizaciones más exitosas han comprendido que la salud impacta en los resultados.",
+    imageUrl: "./assets/images/hero-banner.jpg",
+    imageAlt: "Entrada del club",
+  };
+
+  it("renders the two-tone heading, body, and banner image", () => {
+    const html = renderHeroBlock(base);
+
+    expect(html).toContain('class="block-hero__heading-base"');
+    expect(html).toContain('class="block-hero__heading-highlight"');
+    expect(html).toContain("es una decisión");
+    expect(html).toContain('src="./assets/images/hero-banner.jpg"');
+    expect(html).toContain('alt="Entrada del club"');
+  });
+
+  it("renders an optional emphasis paragraph when provided", () => {
+    const html = renderHeroBlock({ ...base, emphasis: "Sin embargo, hay retos." });
+
+    expect(html).toContain('class="block-hero__emphasis"');
+    expect(html).toContain("Sin embargo, hay retos.");
+  });
+
+  it("omits the emphasis element when not provided", () => {
+    const html = renderHeroBlock(base);
+
+    expect(html).not.toContain("block-hero__emphasis");
+  });
+
+  it("escapes HTML-significant characters in the heading", () => {
+    const html = renderHeroBlock({ ...base, heading: "<script>alert(1)</script>" });
+
+    expect(html).not.toContain("<script>");
+  });
+
+  it("renders the AFS logo mark inline", () => {
+    const html = renderHeroBlock(base);
+
+    expect(html).toContain("<svg");
+    expect(html).toContain("AFS");
+  });
+});
+
+describe("renderChallengeGridBlock", () => {
+  it("renders the section heading and each item's title, description, and consequences", () => {
+    const html = renderChallengeGridBlock({
+      type: "challengeGrid",
+      heading: "Los principales retos de las organizaciones",
+      items: [
+        {
+          icon: "deskPerson",
+          title: "Sedentarismo",
+          description: "Largas jornadas frente a pantallas.",
+          consequences: ["Dolor de espalda", "Rigidez muscular"],
+        },
+        {
+          icon: "battery",
+          title: "Fatiga",
+          description: "Jornadas intensas.",
+          consequences: ["Menor productividad"],
+        },
+      ],
+    });
+
+    expect(html).toContain("Los principales retos de las organizaciones");
+    expect(html).toContain("Sedentarismo");
+    expect(html).toContain("Dolor de espalda");
+    expect(html).toContain("Fatiga");
+    expect(html.match(/block-challenge-grid__item"/g)).toHaveLength(2);
+  });
+
+  it("renders an icon svg for each item", () => {
+    const html = renderChallengeGridBlock({
+      type: "challengeGrid",
+      heading: "Retos",
+      items: [
+        {
+          icon: "brain",
+          title: "Estrés",
+          description: "Descripción",
+          consequences: ["Consecuencia"],
+        },
+      ],
+    });
+
+    expect(html.match(/<svg/g)).toHaveLength(1);
+  });
+
+  it("escapes HTML-significant characters in consequences", () => {
+    const html = renderChallengeGridBlock({
+      type: "challengeGrid",
+      heading: "Retos",
+      items: [
+        {
+          icon: "brain",
+          title: "Estrés",
+          description: "Descripción",
+          consequences: ["<script>alert(1)</script>"],
+        },
+      ],
+    });
+
+    expect(html).not.toContain("<script>");
+  });
+});
+
+describe("renderStatHighlightsBlock", () => {
+  it("renders the heading and each item's icon and label", () => {
+    const html = renderStatHighlightsBlock({
+      type: "statHighlights",
+      heading: "El coste oculto",
+      items: [
+        { icon: "trendingDown", label: "Menor productividad" },
+        { icon: "medicalBag", label: "Más bajas laborales" },
+      ],
+    });
+
+    expect(html).toContain("El coste oculto");
+    expect(html).toContain("Menor productividad");
+    expect(html).toContain("Más bajas laborales");
+    expect(html.match(/<svg/g)).toHaveLength(2);
+  });
+
+  it("renders an optional description when provided", () => {
+    const html = renderStatHighlightsBlock({
+      type: "statHighlights",
+      heading: "El coste oculto",
+      description: "Las consecuencias no afectan únicamente a las personas.",
+      items: [{ icon: "trendingDown", label: "Menor productividad" }],
+    });
+
+    expect(html).toContain('class="block-stat-highlights__description"');
+    expect(html).toContain("Las consecuencias no afectan únicamente a las personas.");
+  });
+
+  it("omits the description element when not provided", () => {
+    const html = renderStatHighlightsBlock({
+      type: "statHighlights",
+      heading: "El coste oculto",
+      items: [{ icon: "trendingDown", label: "Menor productividad" }],
+    });
+
+    expect(html).not.toContain("block-stat-highlights__description");
+  });
+
+  it("escapes HTML-significant characters in labels", () => {
+    const html = renderStatHighlightsBlock({
+      type: "statHighlights",
+      heading: "El coste oculto",
+      items: [{ icon: "trendingDown", label: "<script>alert(1)</script>" }],
+    });
+
+    expect(html).not.toContain("<script>");
+  });
+});
+
+describe("renderPullQuoteBlock", () => {
+  it("renders the quote text", () => {
+    const html = renderPullQuoteBlock({
+      type: "pullQuote",
+      quote: "El bienestar de tus equipos es el motor del éxito sostenible.",
+    });
+
+    expect(html).toContain("El bienestar de tus equipos es el motor del éxito sostenible.");
+    expect(html).toContain('class="block-pull-quote__text"');
+  });
+
+  it("escapes HTML-significant characters in the quote", () => {
+    const html = renderPullQuoteBlock({
+      type: "pullQuote",
+      quote: "<script>alert(1)</script>",
+    });
+
+    expect(html).not.toContain("<script>");
+  });
+});
+
 describe("renderBlock registry", () => {
   it("dispatches a text block to renderTextBlock", () => {
     const html = renderBlock({ type: "text", body: "Contenido" });
@@ -310,6 +495,52 @@ describe("renderBlock registry", () => {
     });
 
     expect(html).toContain('src="foto.jpg"');
+  });
+
+  it("dispatches a hero block to renderHeroBlock", () => {
+    const html = renderBlock({
+      type: "hero",
+      heading: "Encabezado",
+      headingHighlight: "Destacado",
+      body: "Cuerpo",
+      imageUrl: "banner.jpg",
+      imageAlt: "alt",
+    });
+
+    expect(html).toContain("Destacado");
+  });
+
+  it("dispatches a challengeGrid block to renderChallengeGridBlock", () => {
+    const html = renderBlock({
+      type: "challengeGrid",
+      heading: "Retos",
+      items: [
+        {
+          icon: "brain",
+          title: "Estrés",
+          description: "Descripción",
+          consequences: ["Consecuencia"],
+        },
+      ],
+    });
+
+    expect(html).toContain("Estrés");
+  });
+
+  it("dispatches a statHighlights block to renderStatHighlightsBlock", () => {
+    const html = renderBlock({
+      type: "statHighlights",
+      heading: "El coste oculto",
+      items: [{ icon: "trendingDown", label: "Menor productividad" }],
+    });
+
+    expect(html).toContain("Menor productividad");
+  });
+
+  it("dispatches a pullQuote block to renderPullQuoteBlock", () => {
+    const html = renderBlock({ type: "pullQuote", quote: "Una cita." });
+
+    expect(html).toContain("Una cita.");
   });
 
   it("throws a clear error identifying an unregistered block type", () => {

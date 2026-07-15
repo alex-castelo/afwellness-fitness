@@ -27,6 +27,46 @@
         { "url": "./assets/images/sesion-1.jpg", "alt": "Sesión de entrenamiento en equipo" },
         { "url": "./assets/images/sesion-2.jpg", "alt": "Clase de movilidad en la oficina" }
       ]
+    },
+    {
+      "type": "hero",
+      "heading": "El bienestar ya no es\nun beneficio,",
+      "headingHighlight": "es una decisión\nestratégica.",
+      "body": "Las organizaciones más exitosas han comprendido que la salud impacta en los resultados.",
+      "emphasis": "Sin embargo, los equipos actuales se enfrentan a retos cada vez más complejos.",
+      "imageUrl": "./assets/images/hero-banner.jpg",
+      "imageAlt": "Entrada del Real Club de Polo de Barcelona"
+    },
+    {
+      "type": "challengeGrid",
+      "heading": "Los principales retos de las organizaciones",
+      "items": [
+        {
+          "icon": "deskPerson",
+          "title": "Sedentarismo",
+          "description": "Largas jornadas frente a pantallas y falta de movimiento.",
+          "consequences": ["Dolor de espalda", "Rigidez muscular"]
+        },
+        {
+          "icon": "battery",
+          "title": "Fatiga y falta de energía",
+          "description": "Jornadas intensas y hábitos poco saludables.",
+          "consequences": ["Menor productividad", "Mayor agotamiento"]
+        }
+      ]
+    },
+    {
+      "type": "statHighlights",
+      "heading": "El coste oculto",
+      "description": "Las consecuencias no afectan únicamente a las personas.",
+      "items": [
+        { "icon": "trendingDown", "label": "Menor productividad" },
+        { "icon": "medicalBag", "label": "Más bajas laborales" }
+      ]
+    },
+    {
+      "type": "pullQuote",
+      "quote": "Las empresas que invierten en bienestar corporativo construyen equipos más saludables."
     }
   ]
 }
